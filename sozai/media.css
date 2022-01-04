@@ -1,0 +1,572 @@
+@media (max-width:1600px) {
+  .container-photo{
+    display: none;
+  }
+  .services-banner{
+    height: 2000px;
+  }
+  .ser-card{
+    height: 20%;
+  }
+}
+
+@media (max-width:992px) {
+  body{
+    overflow-x: hidden;
+  }
+
+.menu-bar{
+  display: none;
+}
+
+.container-photo{
+  display: none;
+}
+
+.about-banner{
+height: 450px;
+}
+
+.about-left{
+  display: none;
+}
+
+.about-right h1{
+  font-size: 48px;
+}
+
+.blog-banner{
+  height:1500px ;
+  width: 100%;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.blog-banner-inner{
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.blog-title{
+  height: 15%;
+}
+
+.blog-board{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-card{
+  width: 48%;
+  height: 40%;
+  margin-left: 5px;
+}
+.blog-card-text{
+  margin-left: -1px;
+}
+
+.month-box{
+  top: 360px;
+  right: 30px;
+}
+
+.services-banner{
+  height: 1944px;
+  width: 100%;
+}
+
+.services-banner-inner{
+  width: 100%;
+}
+#ser-title{
+  height: 8% !important;
+}
+.ser-card{
+width: 47%;
+height: 30%;
+}
+
+.coffee-detail{
+  width: 100%;
+}
+
+.coffee-img-board{
+  display: none;
+}
+
+.team-banner{
+  width: 100%;
+  height: 1000px;
+}
+.team-banner-inner{
+  width: 100%;
+}
+
+.team-title-banner{
+height: 15% !important;
+}
+
+.team-card-banner{
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+}
+
+.team-card{
+  width: 28%;
+  height: 50%;
+}
+.team-card-text-name h1{
+  font-size: 24px !important;
+}
+
+.team-card-text-icon{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hire-banner{
+  display: none !important;
+}
+
+#testimonail-title{
+  height: 5% !important;
+}
+
+.testimonail-banner-inner{
+  width: 100%;
+}
+
+.testimonail-box{
+  width: 90%;
+}
+
+.study-banner{
+  height: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.study-banner-inner{
+  width: 100%;
+}
+
+.study-position{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.study-text-container-img{
+  margin: 0px 0px ;
+}
+
+.study-btn{
+  top: 700px;
+  right: 40px;
+}
+
+.swiper-slide{
+  display: inline-block !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  display: none;
+}
+
+.text-board{
+  height: 200px;
+}
+
+.info-banner{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  height: 500px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.info-banner-inner{
+  width: 100%;
+}
+
+.info-position{
+  flex-wrap: wrap;
+justify-content: flex-start;
+margin-left: 0;
+margin-right: 0;
+width: 100%;
+}
+
+.info-detail1,
+.info-detail2,
+.info-detail3{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.info-detail-position1,
+.info-detail-position2{
+  width: 80%;
+}
+
+.footer-banner{
+  height: 700px;
+}
+.footer-banner-inner-middle{
+  height: 500px;
+}
+.middle-info{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.width-55{
+  width: 100%;
+}
+
+.width-15 {
+  width: 30%;
+}
+
+}
+
+
+@media (max-width:768px) {
+.blog-banner{
+  height: 1700px;
+  margin-top: 10px;
+  align-items: flex-start;
+}
+.blog-banner-inner{
+  height: 80%;
+  
+}
+
+  .blog-board{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+  }
+
+  .blog-card{
+    width: 75%;
+    height: 40%;
+margin-bottom: 20px;
+  }
+.month-box{
+  top:320px;
+}
+
+#ser-title{
+height: 200px !important;
+}
+
+.ser-card{
+  width: 75%;
+  height: 20%;
+}
+
+.services-banner{
+  height: 3100px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.services-banner-inner {
+  width: 75%;
+  height: 75% !important;
+}
+
+.team-banner{
+  padding-bottom: 0px;
+  height: 800px;
+}
+.team-banner-inner{
+  width: 75%;
+  height: 100%;
+}
+
+.team-title-banner{
+height: 25%;
+width: 100%;
+text-align: center;
+}
+
+.team-card-banner{
+  height: 75%;
+  width: 100%;
+  justify-content: center !important;
+  }
+.team-card{
+  width: 45%;
+height: 45%;
+padding: 12px;
+position: relative;
+}
+
+.team-card-text-name{
+line-height: 5px;
+}
+
+.team-card-text-box{
+height: 45%;
+  }
+
+  .study-banner{
+    display: flex;
+    justify-content: center !important;
+  }
+  .study-banner-inner{
+    width: 75%;
+    justify-content: center !important;
+  }
+
+  .info-banner{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    height: 700px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+.info-position{
+  justify-content: center;
+}
+
+  .info-detail1,
+.info-detail2,
+.info-detail3{
+  padding-left: 0;
+  padding-right: 0;
+  width: 80%;
+}
+}
+
+@media (max-width:656px) {
+  .team-banner{
+    height: 2500px;
+    padding-top: 50px !important;
+  }
+.team-title-banner{
+  height: 8% !important;
+}
+
+  .team-card{
+    height: 25%;
+    width: 85%;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width:394px) {
+  .sns-bar-inner{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .main-bar{
+    display: flex;
+  }
+  .icon-bar-inner{
+    justify-content: flex-end;
+  }
+  .icon-card{
+    display: none;
+  }
+  
+  .container-text{
+    width: 100% !important;
+  }
+  .container-text-list a{
+    font-size: 16px !important;
+  }
+  .title{
+    font-size: 36px;
+    height: 40px;
+  }
+
+  .container-text p{
+    font-size:16px !important ;
+  }
+  .input-place {
+    width: 750px;
+  }
+  .input-place input{
+    width: 15%;
+    margin-left: 0px;
+  }
+  .input-button-email{
+    width: 20%;
+  }
+  .input-button-email button{
+    font-size: 6px !important ;
+  }
+
+  #aboutUs{
+    font-size: 18px !important;
+  }
+  .about-right h1{
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  #about-middle{
+    font-size: 18px !important;
+  }
+  #about-right-text01{
+    font-size: 16px !important ;
+  }
+
+.blog-title p {
+  text-align: center;
+}
+
+.blog-card{
+  width: 95%;
+}
+
+.blog-card-text{
+  height:30% ;
+}
+.services-banner-inner{
+  width: 100%;
+}
+.ser-card{
+  width: 95%;
+}
+
+.coffee-banner-inner{
+  width: 100%;
+}
+.coffee-detail{
+  width: 100%;
+}
+.coffee-detail-text{
+  width: 95%;
+}
+
+.team-banner{
+  width: 100% !important;
+  height: 2000px;
+  padding-top: 0px;
+}
+.team-banner-inner{
+  width: 100%;
+  height: 100%;
+}
+#team-title h1{
+  font-size: 40px !important;
+    margin-top: 30px;
+}
+
+#team-title p{
+  font-size: 20px !important;
+}
+.team-title-banner{
+  height: 5% !important;
+  }
+.team-card-banner{
+  width: 100%;
+}
+  .team-card{
+    width: 100%;
+    height: 25%;
+    margin-bottom:50px !important;
+  }
+
+  .testimonail-banner{
+    height: 1600px;
+  }
+  .testimonail-banner-inner{
+    height: 100%;
+  }
+#testimonail-title{
+  height: 0% !important;
+}
+  #testimonail-title h1{
+    font-size: 40px !important;
+    margin-top: 30px;
+  }
+  #testimonail-title p{
+    font-size: 20px !important;
+  }
+  .testimonail-box{
+    flex-direction: column;
+    align-items: flex-start !important;
+    height: 30%;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .testimonail-box img{
+    height: 90%;
+  }
+  .testimonail-box-left{
+    justify-content: flex-start !important;
+  }
+
+  .testimonail-box-right-top {
+    justify-content: space-between !important;
+    padding-right: 0 !important;
+  }
+
+  #testimonail01{
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+  #testimonail01 h1{
+    font-size: 20px !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #testimonail01 span{
+    margin: 0 !important;
+  }
+  #testimonail01 p{
+    margin: 0 !important;
+  }
+  
+
+  .testimonail-box-right-bottom{
+    padding-right: 0px !important;
+    font-size: 20px !important;
+    width: 100% !important;
+    padding-top: 10px !important;
+  }
+
+  .study-banner{
+    height: 700px !important;
+  }
+.study-text-container-img{
+  margin-top: 50px;
+}
+.study-btn{
+  top:500px;
+  right: 30px;
+}
+.study-text-container-img img{
+height: 50% !important;
+}
+.study-title-title{
+  font-size: 40px !important;
+}
+
+.study-banner-inner{
+  width: 95%;
+}
+
+  .info-position{
+    width: 100% !important;
+    display: flex;
+  }
+  .info-detail1,
+  .info-detail2,
+  .info-detail3{
+    margin-right: 0px;
+    width: 100% !important;
+  }
+}
+
